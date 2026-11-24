@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chat Jump 개인정보 처리방침</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<style>
+  body { font-family: Pretendard, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.75; color: #1f2430; }
+  h1 { font-size: 26px; } h2 { font-size: 18px; margin-top: 32px; border-bottom: 1px solid #e3e6ee; padding-bottom: 6px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; } th, td { border: 1px solid #e3e6ee; padding: 8px 10px; text-align: left; vertical-align: top; } th { background: #f5f7fb; }
+  .meta { color: #6b7385; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>Chat Jump 개인정보 처리방침</h1>
+<p class="meta">시행일: 2026년 11월 19일 (v1.16.0 갱신) · 문의: chatjump.official@gmail.com</p>
+
+<p>Chat Jump(이하 "확장 프로그램")는 claude.ai, chatgpt.com, gemini.google.com 사이드바에 미니 게임과 랭킹 기능을 제공하는 Chrome 확장 프로그램입니다. 이 문서는 확장 프로그램이 어떤 정보를 다루는지 설명합니다.</p>
+
+<h2>1. 수집·이용하는 정보</h2>
+<table>
+<tr><th>항목</th><th>목적</th><th>저장 위치</th></tr>
+<tr><td>익명 ID (확장 프로그램이 무작위로 생성)</td><td>랭킹에서 이용자 구분</td><td>브라우저 로컬 저장소 + 랭킹 서버</td></tr>
+<tr><td>닉네임 (자동 생성되며 이용자가 변경 가능)</td><td>랭킹 표시</td><td>브라우저 로컬 저장소 + 랭킹 서버</td></tr>
+<tr><td>게임별 점수, 플레이 시간(초), 일일 도전 점수</td><td>랭킹 집계 및 비정상 점수 차단</td><td>랭킹 서버</td></tr>
+<tr><td>하루 1회의 익명 사용 기록(익명 ID, 날짜)</td><td>일간·월간 사용자 수 집계</td><td>랭킹 서버</td></tr>
+<tr><td>광고 노출·클릭 횟수(광고 ID, 날짜 단위 합계)</td><td>광고 성과 집계 — 개인을 식별할 수 없음</td><td>랭킹 서버</td></tr>
+<tr><td>업적·누적 플레이 기록</td><td>업적 표시</td><td>브라우저 로컬 저장소(서버로 전송하지 않음)</td></tr>
+<tr><td>설정값 (위젯 위치, 게임 속도, 표시할 게임, 언어, 답변 완료 알림, 소리 on/off)</td><td>사용자 설정 유지</td><td>브라우저 로컬 저장소</td></tr>
+</table>
+
+<h2>2. 수집하지 않는 정보</h2>
+<ul>
+<li>대화 내용, 프롬프트, 답변, 업로드한 파일 등 claude.ai·chatgpt.com·gemini.google.com의 대화 데이터는 <b>읽거나 저장하거나 전송하지 않습니다.</b></li>
+<li>이름, 이메일, 전화번호, 계정 정보, 결제 정보를 수집하지 않습니다.</li>
+<li>확장 프로그램은 위젯을 넣을 위치를 찾기 위해 사이드바의 메뉴 링크(예: "새 채팅")만 확인하며, 이 정보는 외부로 전송되지 않습니다.</li>
+<li>"답변 완료 알림"을 위해 화면에 답변 중지 버튼이 보이는지만 브라우저 안에서 확인합니다. 답변 내용은 읽지 않으며, 이 확인 결과도 외부로 전송하지 않습니다. 설정에서 끌 수 있습니다.</li>
+</ul>
+
+<h2>3. 외부 서버 이용</h2>
+<p>랭킹 기능을 위해 Google Apps Script/Google 스프레드시트로 운영되는 서버(script.google.com)와 통신합니다. 전송되는 내용은 위 1항에 표시된 항목(익명 ID, 닉네임, 점수, 플레이 시간, 익명 사용 기록, 광고 집계)에 한정됩니다.</p>
+
+<h2>4. 광고</h2>
+<p>확장 프로그램에는 "AD"로 표시되는 스폰서 광고 영역이 있을 수 있습니다. 스폰서 카드는 클릭 시 광고주 페이지가 새 탭에서 열리며, 확장 프로그램은 광고 카드의 노출·클릭 횟수를 개인 식별 정보 없이 합계로만 집계합니다. 광고 목록은 운영자의 서버에서 불러옵니다. 광고주 페이지에서의 정보 처리는 해당 사이트의 방침을 따릅니다.</p>
+
+<h2>5. 보관 및 삭제</h2>
+<ul>
+<li>브라우저에 저장된 정보는 확장 프로그램을 삭제하면 함께 삭제됩니다.</li>
+<li>랭킹 서버의 기록(익명 ID·닉네임·점수)의 삭제를 원하시면 위 문의처로 익명 ID와 함께 요청해 주세요. </li>
+</ul>
+
+<h2>6. 제3자 제공</h2>
+<p>수집한 정보를 판매하거나 광고 목적으로 제3자에게 제공하지 않습니다.</p>
+
+<h2>7. 방침 변경</h2>
+<p>내용이 바뀌면 이 페이지에 변경 사항과 시행일을 게시합니다.</p>
+</body>
+</html>
